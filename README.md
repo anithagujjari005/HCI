@@ -8,7 +8,6 @@ This project enables hands-free control of the mouse using facial gestures captu
 ## Features
 
 - Move the mouse cursor using nose direction.
-- Open mouth to toggle input (cursor movement) mode.
 - Blink both eyes to toggle scroll mode.
 - Wink left eye for left click.
 - Wink right eye for right click.
@@ -20,10 +19,10 @@ This project enables hands-free control of the mouse using facial gestures captu
 
 Install the required Python libraries:
 
-```bash
-pip install opencv-python dlib imutils pyautogui numpy
 facial-mouse-control/
-├── mouse-cursor.py
-├── utils.py
-└── model/
-    └── shape_predictor_68_face_landmarks.dat
+│
+├── mouse-cursor.py            # Main script
+├── utils.py                   # Utility functions (EAR, MAR, direction)
+├── model/
+│   └── shape_predictor_68_face_landmarks.dat  # Pre-trained dlib model
+└── README.md
