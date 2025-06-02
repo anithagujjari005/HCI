@@ -19,7 +19,6 @@ This project enables hands-free control of the mouse using facial gestures captu
 
 Install the required Python libraries:
 
-```bash
 pip install opencv-python dlib imutils pyautogui numpy
 
 ## 📁 Project Structure
