@@ -20,9 +20,8 @@ This project enables hands-free control of the mouse using facial gestures captu
 Install the required Python libraries:
 
 facial-mouse-control/
-│
-├── mouse-cursor.py            # Main script
-├── utils.py                   # Utility functions (EAR, MAR, direction)
-├── model/
-│   └── shape_predictor_68_face_landmarks.dat  # Pre-trained dlib model
-└── README.md
+├── mouse-cursor.py
+├── utils.py
+└── model/
+    └── shape_predictor_68_face_landmarks.dat
+
